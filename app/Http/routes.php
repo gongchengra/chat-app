@@ -13,8 +13,9 @@
 
 Route::get('/', function()
 {
-    return 'Hello Laravel';
-//    return View::make('hello');
+//    return 'Hello Laravel';
+    return \View::make('welcome');
+//    return view('welcome');
 });
 
 
